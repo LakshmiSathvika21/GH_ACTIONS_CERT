@@ -1,7 +1,6 @@
 name: manual workflow
 on: 
   workflow_dispatch:
-  
     
 jobs:
   show_info:
