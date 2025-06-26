@@ -1,7 +1,7 @@
-name: push events
+name: manual workflow
 on: 
-  schedule:
-    - cron: '*/5 * * * *'  #Runs every 5 minutes.
+  workflow_dispatch:
+  
     
 jobs:
   show_info:
@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: info
         run: |
-              echo "this is push event on all branches"
+              echo "this is manual run"
