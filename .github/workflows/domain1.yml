@@ -1,6 +1,10 @@
 name: manual workflow
 on: 
   workflow_dispatch:
+    inputs: 
+      ENV:
+        description: ENV NAME
+        default: hi
     
 jobs:
   show_info:
@@ -8,4 +12,4 @@ jobs:
     steps:
       - name: info
         run: |
-              echo "this is manual run"
+              echo "ENV = ${{ github.event.inputs.ENV }}"
