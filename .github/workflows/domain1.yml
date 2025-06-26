@@ -5,7 +5,6 @@ on:
       ENV:
         description: ENV NAME
         default: hi
-    
 jobs:
   show_info:
     runs-on: ubuntu-latest
