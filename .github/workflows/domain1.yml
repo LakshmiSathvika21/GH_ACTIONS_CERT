@@ -1,0 +1,9 @@
+name: push events
+on: push
+jobs:
+  show_info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: info
+        run: |
+              echo "this is push event on all branches"
