@@ -12,3 +12,4 @@ jobs:
       - name: info
         run: |
               echo "ENV = ${{ github.event.inputs.ENV }}"
+              
