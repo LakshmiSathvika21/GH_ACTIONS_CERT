@@ -1,3 +1,4 @@
+[![Deploy static content to Pages](https://github.com/LakshmiSathvika21/static-portfolio-webpage/actions/workflows/static.yml/badge.svg)](https://github.com/LakshmiSathvika21/static-portfolio-webpage/actions/workflows/static.yml)
 Domain 1: Author and maintain workflows (40%)
 
 Section-1 : Work with events that trigger workflows
